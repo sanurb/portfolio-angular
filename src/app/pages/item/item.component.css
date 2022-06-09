@@ -1,0 +1,18 @@
+.rk-portfolio-cover {
+  max-height: 720px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+h1.ae-u-bolder {
+  text-rendering: optimizeLegibility;
+  color: white;
+}
+
+.ae-theta {
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+  color: white;
+}

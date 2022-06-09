@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { InfoPage } from '../interfaces/info-page-interfaces';
+import { InfoPage } from '../interfaces/info-page.interfaces';
 
 @Injectable({
   providedIn: 'root'
@@ -23,7 +23,6 @@ export class InfoPageService {
     // Read json file
     this.http.get('assets/data/data-page.json')
     .subscribe( (resp: InfoPage) => {
-
       this.cargada = true;
       this.info = resp;
     });
